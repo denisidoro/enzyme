@@ -11,6 +11,6 @@ Actions are customizable and conditional groups are supported, so that a certain
 Contributions
 ---------------
 
-Please note I haven't written this code in its entirity. Some code from the [AHK Forums] [ahkforum] has been used.
+Please note I haven't written this code in its entirety. Some code from the [AHK Forums] [ahkforum] has been used.
 
 [ahkforum]: [http://www.autohotkey.com/board/]
