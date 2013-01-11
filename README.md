@@ -12,5 +12,7 @@ Contributions
 ---------------
 
 Please note I haven't written this code in its entirety. Some code from the [AHK Forums] [ahkforum] has been used.
+Check out the [about window] [about] for more information.
 
 [ahkforum]: http://www.autohotkey.com/board/
+[about]: https://github.com/denisidoro/enzyme/blob/master/common/About.ahk
