@@ -1,0 +1,86 @@
+﻿1.7.0, 02.26.2012, http://dl.dropbox.com/u/54852051/Enzyme/Enzyme%20Latest.exe
++ New actions added: 'Change active profile'; 'Say current time'; 'Create countdown timer'
++ Added a button on editor GUI to clear action code
++ Added support for executing actions via command line parameters ("...\Enzyme.exe" "a=code1" "a=code2")
++ Text-to-speech actions now have a parameter that chooses what will be said: selected text or clipboard text
++ Text-to-speech actions now have a method parameter: pause, stop etc.
++ 'Kill process' action now kills the active window if no process name is given
++ More options added
+· The first action of a trigger will be selected by default, on Editor GUI
+· Action code editor now uses line-break as delimiter, instead of '|'
+· Action list is now read from an INI file
+- Fixed bug with parameters starting with ' ' when they shouldn't
+- Memory consumption after speaking is greatly improved now
+- Fixed bug when using action 'Open file with certain program' without selecting any file
+- Fixed bug related to label execution when editing actions
+- Fixed minor bugs
+
+1.6.8, 02.10.2012, http://dl.dropbox.com/u/54852051/Enzyme/Enzyme%201.6.8.exe
++ Added more options, including the use of native voice commands or not
++ New actions added: 'Exit app'; 'Reload app'; 'Open editor GUI'
+· Optimized the code a bit
+· Made minor changes
+· Secondary mouse gesture key is Ctrl+RMB by default
+- Fixed speech recognition (at least on Win7 x64)
+- Fixed minor bugs
+
+1.6.5, 02.02.2012, http://dl.dropbox.com/u/54852051/Enzyme/Enzyme%201.6.5.exe
++ Started using BestInstaller
++ New action added: 'Speak selected text', previously done by 3rd-party software
++ Added internal update system
+· Merged Upgrade.exe into Editor.exe
+· Help file is now only available via additional download
+- Fixed functions that have '"' as parameter
+- Fixed minor bugs and typos
+
+1.6.0, 31.01.2012, http://dl.dropbox.com/u/54852051/Enzyme/Enzyme%201.6.exe
++ Added support for profile import/export
++ New action added: 'Open file with certain program'
+· Compressed executables
+- Fixed functions that have '(' or ')' as parameters
+- Fixed minor bugs
+
+1.5.0, 08.01.2012, http://dl.dropbox.com/u/54852051/Enzyme/Enzyme%201.5.exe
++ Improved mouse gesture recognition
++ Added more mouse gesture settings
++ Added mouse trail canvas support
++ Added sounds to indicate program startup and status
++ Added support for wheel up/down
++ New actions added: 'Next desktop background'; power related ones, previously done by 3rd-party software; 'Toggle trigger monitoring'
++ Default action added to tray icon double-click
++ Added some credits
++ Updated some condition groups
+· Changed traybar icons
+- Fixed functions that have 0 as argument
+- Fixed functions that have spaces in arguments
+- Fixed action addition for triggers with 2 or more associated actions for a specific group
+- Fixed actions: 'Set window transparency', 'Play sound'
+- Fixed bug related to action codes contained inside another action code
+- Brightness level won't return to 128 after negative values
+- Removed support for mouse gesture modifiers
+
+1.2.0 Beta, 12.27.2011, http://dl.dropbox.com/u/54852051/Enzyme/Enzyme%201.2%20Beta.exe
++ Experimental speech recognition support added, via Microsoft Speech SDK
++ Basic joystick support added
++ New action added: 'Shorten URLs', via Bit.ly API
++ More actions added, including power related ones, via 3rd-party software
++ Upgrade tool added
++ Little performance boost
+· More organized settings INI file
+· Shortcut is created in current user's startup folder, not in the public one
+· Editor executable renamed to 'Editor.exe'
+- Blocked action update when no action is selected
+- Fixed volume bar display when OSD is uninitialized
+- Fixed functions that have two or more arguments
+- Fixed functions that have strings as arguments
+- Fixed action addition when command doesn't end with '|'
+- Fixed trigger addition when its code doesn't end with '_'
+- Fixed default minimal mouse distance setting
+- Fixed bug with program shortcut. Now the editor window won't popup on every Windows startup
+
+1.0.0 Beta, 12.20.2011
++ Made minor improvements
+- Fixed minor bugs
+
+0.9.5 Alpha, 12.17.2011
+· First release
