@@ -13,4 +13,4 @@ Contributions
 
 Please note I haven't written this code in its entirety. Some code from the [AHK Forums] [ahkforum] has been used.
 
-[ahkforum]: [http://www.autohotkey.com/board/]
+[ahkforum]: http://www.autohotkey.com/board/
