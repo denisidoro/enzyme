@@ -18,7 +18,7 @@ Check out the [about window] [about] for more information.
 Download
 --------
 
-You can download this repository clicking [here] [zip]. The executables are in the '/downloads/' folder.
+You can download this repository by clicking [here] [zip]. The executables are in the '/downloads/' folder.
 
 Alternatively, you can download this application from [Softpedia] [softpedia] or [CNET] [cnet].
 
