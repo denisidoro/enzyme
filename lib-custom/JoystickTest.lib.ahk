@@ -34,11 +34,11 @@ StartJoystickRecognition:
   			break
   		}
   	}
-  	/*if JoystickNumber <= 0
+  	if JoystickNumber <= 0
   	{
-  		MsgBox The system does not appear to have any joysticks.
-  		ExitApp
-  	}*/
+      ShowTrayTip("The system does not appear to have any joysticks")
+  		;ExitApp
+  	}
   }
 
   SetFormat, float, 03  ; Omit decimal point from axis position percentages.

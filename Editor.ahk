@@ -30,10 +30,10 @@ return
 #Include, editor\GUILabels.ahk
 #Include, editor\MenuItems.ahk
 #Include, mgr\MenuItems.ahk
+#Include, common\Functions.ahk
 #Include, lib-custom\TuncayIni.lib.ahk
 #Include, lib-custom\LVG.lib.ahk
 #Include, mgr\R3gxFunctions.ahk
-#Include, common\Functions.ahk
 #Include, common\AboutFunctions.ahk
 #Include, lib-custom\JoystickTest.lib.ahk
 #Include, lib-custom\Zip.lib.ahk
