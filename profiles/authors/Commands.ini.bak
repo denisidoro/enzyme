@@ -1,0 +1,141 @@
+[MB_UR]
+TriggerName=MB Northeast
+Default=Win_Maximize();Maximize window
+
+[MB_DL]
+TriggerName=MB Southwest
+Default=Win_Minimize();Minimize window
+
+[MB_L]
+TriggerName=MB West
+Browser={Browser_Back};Back page
+Explorer=!{Left};Back folder
+
+[MB_R]
+TriggerName=MB East
+Browser={Browser_Forward};Forward page
+Explorer=!{Right};Forward folder
+
+[MB_D]
+TriggerName=MB South
+Explorer={Backspace};Go back
+
+[RB_WheelUp]
+TriggerName=RB WheelUp
+Default=^{Tab};Cycle tabs
+
+[RB_WheelDown]
+TriggerName=RB WheelDown
+Default=^+{Tab};Cycle back tabs
+
+[MB_UR_DL_UR]
+TriggerName=MB NE SW NE
+Default={F11};Go fullscreen
+
+[KB_Appskey & Delete]
+TriggerName=App+Delete
+Default=ChangeVolumeWithOSD(-2);Decrease volume with OSD
+
+[KB_Appskey & End]
+TriggerName=App+End
+Default=ChangeVolumeWithOSD(0);Mute/unmute
+
+[KB_Appskey & PgDn]
+TriggerName=App+PageDown
+Default=ChangeVolumeWithOSD(2);Increase volume with OSD
+
+[KB_Appskey & Insert]
+TriggerName=App+Insert
+Default={Media_Prev};Previous track
+
+[KB_Appskey & Home]
+TriggerName=App+Home
+Default={Media_Play_Pause};Play/pause
+
+[KB_Appskey & PgUp]
+TriggerName=App+PageUp
+Default={Media_Next};Next track
+
+[KB_Appskey & ScrollLock]
+TriggerName=App+ScrollLock
+Default={Media_Stop};Stop
+
+[KB_Appskey & Left]
+TriggerName=App+Left
+Default=ChangeBrightness(-4);Decrease monitor brightness
+
+[KB_Appskey & Right]
+TriggerName=App+Right
+Default=ChangeBrightness(4);Increase monitor brightness
+
+[KB_Appskey & Up]
+TriggerName=App+Up
+Default=Win_AlwaysOnTop(2);Set window always on top
+
+
+
+[KB_Appskey & H]
+TriggerName=App+H
+Default=ToggleHiddenFiles;Toggle hidden files visibility
+
+[KB_Appskey & E]
+TriggerName=App+E
+Default=ToggleFileExtensions;Toggle file extension visibility
+
+
+
+[KB_Appskey & N]
+TriggerName=App+N
+Default=NextDesktopBackground;Next desktop background
+
+[KB_Appskey & U]
+TriggerName=App+U
+Default=ShortenUrl(1);Shorten selected URL
+
+[KB_Appskey & Q]
+TriggerName=App+Q
+Default=ToggleStates(1, 0);Toggle triggers monitoring
+
+[KB_Appskey & Numpad1]
+TriggerName=App+1
+Default=CallNirCmd("screensaver");Start the Default screen saver
+
+[KB_Appskey & Numpad2]
+TriggerName=App+2
+Default=CallNirCmd("standby");Put computer in standby mode
+
+[KB_Appskey & F1]
+TriggerName=App+F1
+Default=RunCertainProgram("D:\Portable\Design and Development\Notepad++\notepad++.exe", 0);Open file with Notepad++
+
+[KB_Appskey & F2]
+TriggerName=App+F2
+Default=RunCertainProgram("D:\Portable\Design and Development\Notepad++ for AutoHotKey\notepad++.exe", 0);Open file with Notepad++ AHK
+
+[KB_Appskey & F3]
+TriggerName=App+F3
+Default=RunCertainProgram("", 0);Open file with Notepad
+
+[KB_Appskey & F5]
+TriggerName=App+F5
+Default=RunCertainProgram("C:\Program Files\Media\PotPlayer\PotPlayerMini64.exe", 0);Open file with PotPlayer
+
+[KB_Appskey & F9]
+TriggerName=App+F9
+Default=RunCertainProgram("C:\Program Files (x86)\Internet\Mozilla Firefox\firefox.exe", 0);Open file with Mozilla Firefox
+
+[KB_Appskey & T]
+TriggerName=App+T
+Default=SayTime(VW Bridget);Say current time
+
+[KB_Appskey & R]
+TriggerName=App+R
+Default=Reload;Reload
+
+[KB_Appskey & S]
+TriggerName=App+S
+Default=SpeakTextClip(,ScanSoft Daniel_Full_22kHz);Text-to-speech
+
+[KB_Appskey & K]
+TriggerName=App+K
+Default=KillProcess();Kill process

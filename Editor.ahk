@@ -24,6 +24,7 @@ else
 
 return
 
+#Include, lib-custom\Com.ahk
 #Include, mgr\LexFunctions.ahk
 #Include, editor\Functions.ahk
 #Include, editor\GUILabels.ahk

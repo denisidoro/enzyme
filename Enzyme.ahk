@@ -7,6 +7,7 @@ SetBatchLines, -1
 ;Menu, Tray, Icon, Shell32.dll, 99
 
 Script_Name := "Enzyme" ;Your script name
+#Include %A_ScriptDir%  ; Changes the working directory for subsequent #Includes and FileInstalls.
 #include, common\FileLocations.ahk
 #Include, common\StructureVersion.ahk
 
@@ -42,6 +43,7 @@ if 0 > 0
   ExitApp
 }
 
+#Include, lib-custom\Com.ahk
 ;#Include, lib-custom\URLEncode.lib.ahk
 #Include, lib-custom\TuncayIni.lib.ahk
 #Include, mgr\Init.ahk
