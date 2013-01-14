@@ -13,6 +13,8 @@ Contributions
 
 Please note I haven't written this code in its entirety. Some code from the [AHK Forums] [ahkforum] has been used.
 
+If you think I have used your code and you disagree with that, please inform me so that I can remove it from the source as soon as possible.
+
 Check out the [about window] [about] for more information.
 
 Download
