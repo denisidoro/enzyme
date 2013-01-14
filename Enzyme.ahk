@@ -64,7 +64,6 @@ Return
 #Include, mgr\R3gxFunctions.ahk
 #Include, mgr\Functions.ahk
 #Include, common\Functions.ahk
-#Include, common\AboutFunctions.ahk
 #Include, mgr\MenuItems.ahk
 #Include, lib-custom\ExplorerFunc.lib.ahk
 #Include, lib-custom\Updater.lib.ahk

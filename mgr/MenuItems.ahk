@@ -58,5 +58,6 @@ return
 
 EditHotkeys:
   Run "Editor.exe", %A_WorkingDir%, UseErrorLevel
+  Run "Editor.ahk", %A_WorkingDir%, UseErrorLevel
   ExitApp
 return

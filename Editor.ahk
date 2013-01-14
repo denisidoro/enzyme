@@ -12,9 +12,10 @@ isUpgrading := false
 isEditing := true
 
 if forceUpgrade
+{
   isUpgrading := True
-else
-  isEditing := true
+  isEditing := false
+}
 
 #include, common\FileLocations.ahk
 #Include, common\StructureVersion.ahk
