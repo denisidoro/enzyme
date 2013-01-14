@@ -24,7 +24,7 @@ return
 About:
   about_infoText = 
   #Include, common\About.ahk
-  Gui, Show, h373 w388, About
+  Gui, Show, h453 w388, About
   check_forupdate()
 return
 

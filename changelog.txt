@@ -1,4 +1,7 @@
-﻿1.7.0, 02.26.2012, http://dl.dropbox.com/u/54852051/Enzyme/Enzyme%20Latest.exe
+﻿1.8.0+
+Check https://github.com/denisidoro/enzyme/commits/master for more information
+
+1.7.0, 02.26.2012, http://dl.dropbox.com/u/54852051/Enzyme/Enzyme%20Latest.exe
 + New actions added: 'Change active profile'; 'Say current time'; 'Create countdown timer'
 + Added a button on editor GUI to clear action code
 + Added support for executing actions via command line parameters ("...\Enzyme.exe" "a=code1" "a=code2")

@@ -1,10 +1,10 @@
-﻿Version_Number := 1.70
+﻿Version_Number := 1.80
 ThisStructureVersion = 1.70
 
-if (!isEditing)
-  about_version = Version %Version_Number%
-else
-  about_version = Version 1.5.5 [Editor]
+about_version = Version %Version_Number%
+
+if (isEditing)
+  about_version = %about_version% [Main]`nVersion 1.60 [Editor]
 
 StructureVersion := FindStructureVersion()
 

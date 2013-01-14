@@ -9,7 +9,7 @@
 }
 
 isUpgrading := false
-isEditing := false
+isEditing := true
 
 if forceUpgrade
   isUpgrading := True
@@ -34,7 +34,6 @@ return
 #Include, lib-custom\TuncayIni.lib.ahk
 #Include, lib-custom\LVG.lib.ahk
 #Include, mgr\R3gxFunctions.ahk
-#Include, common\AboutFunctions.ahk
 #Include, lib-custom\JoystickTest.lib.ahk
 #Include, lib-custom\Zip.lib.ahk
 #Include, lib-custom\TTS.lib.ahk
