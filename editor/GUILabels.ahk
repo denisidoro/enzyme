@@ -567,7 +567,7 @@ ExportProfile:
 return
 
 GetMoreProfiles:
-  Run, http://catalysisapps.wordpress.com/2011/12/28/enzyme/
+  Run, https://github.com/denisidoro/enzyme/tree/master/profiles
 return
 
 UpdateActiveProfile:
