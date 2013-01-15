@@ -15,7 +15,7 @@ Check_ForUpdate(_ReplaceCurrentScript = 0, _SuppressMsgBox = 0, _CallbackFunctio
   Global Script_Name, Version_Number
   ;Static Script_Name := "Enzyme", Version_Number := 1.6
   
-	Static Update_URL := "http://dl.dropbox.com/u/54852051/Enzyme/Version.ini" ;The URL of the version.ini file for your script
+	Static Update_URL := "https://raw.github.com/denisidoro/enzyme/master/Version.ini" ;The URL of the version.ini file for your script
 	, Retry_Count := 3 ;Retry count for if/when anything goes wrong
   
   ;Msgbox, % Script_Name ", " Version_Number ", " Update_URL ", " Retry_Count

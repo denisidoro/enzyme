@@ -472,7 +472,7 @@ GiveSomeHelp:
     Msgbox, 4, %Script_Name%, You haven't downloaded the help file yet`n`nDo you want to download it now?
     ifMsgbox Yes
     {
-      UrlDownloadToFile, http://dl.dropbox.com/u/54852051/Enzyme/enzyme-help-file.chm, %HelpLocation%
+      UrlDownloadToFile, https://github.com/denisidoro/enzyme/blob/master/enzyme-help-file.chm?raw=true, %HelpLocation%
       Msgbox, 4, %Script_Name%, Finished downloading help file!`n`nDo you want to see it now?
       ifMsgbox Yes
         Run %helpLocation%,,UseErrorLevel
