@@ -12,7 +12,7 @@ StructureVersion := FindStructureVersion()
 if (StructureVersion != ThisStructureVersion and !IsUpgrading)
 {
 
-  MsgBox,, %Script_Name%, Your config files are not up to date`nUpgrade tool will be executed`n`nApp version: %ThisStructureVersion%Config files version: %StructureVersion%
+  MsgBox,, %Script_Name%, Your config files are not up to date`nUpgrade tool will be executed`n`nApp version: %ThisStructureVersion%`nConfig files version: %StructureVersion%
   Run Editor.exe forceUpgrade,,UseErrorLevel
   ExitApp
 
