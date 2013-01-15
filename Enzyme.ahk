@@ -62,7 +62,7 @@ Return
 
 #Include, mgr\LexFunctions.ahk
 #Include, mgr\R3gxFunctions.ahk
-#Include, mgr\Functions.ahk
+#Include, commands\Main.ahk
 #Include, common\Functions.ahk
 #Include, mgr\MenuItems.ahk
 #Include, lib-custom\ExplorerFunc.lib.ahk

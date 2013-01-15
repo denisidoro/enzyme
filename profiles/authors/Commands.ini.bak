@@ -126,7 +126,7 @@ Default=RunCertainProgram("C:\Program Files (x86)\Internet\Mozilla Firefox\firef
 
 [KB_Appskey & T]
 TriggerName=App+T
-Default=SayTime(VW Bridget);Say current time
+Default=SayTime(Microsoft Zira Desktop);Say current time
 
 [KB_Appskey & R]
 TriggerName=App+R
