@@ -455,40 +455,6 @@ ToggleStates(mouseState, hotkeyState)
 
 }
 
-RunCertainProgram(AppLocation, option)
-{
-
-  if AppLocation = "" 
-    AppLocation := A_WinDir "\System32\Notepad.exe"
-  ;else
-  ;  if InStr(AppLocation, """")
-  ;    AppLocation := Substr(AppLocation, 2, -1)
-    
-  ;if (!option)
-  ; option := 0
-    
-  if option = 0  
-    path := Explorer_GetSelected()
-  else if option = 1
-    path := Explorer_GetAll()
-  else if option = 2
-    path := Explorer_GetPath()
-  
-  ;CRASH ON DESKTOP
-  ;msgbox, %path%
-  ;return
-  
-  if path = ERROR
-  {
-    Run, "%AppLocation%"
-    return
-  }
-    
-  Loop, Parse, path, `n
-    Run, "%AppLocation%" "%A_LoopField%"
-
-}
-
 ReloadApp()
 {
   Reload
