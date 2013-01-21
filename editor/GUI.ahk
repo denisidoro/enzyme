@@ -69,7 +69,7 @@ Gui, Add, Text, x125 y185 w50 h13 , &Speech
 Gui, Font, Norm
 Gui, Add, Edit, x180 y180 w140 gOnSpeechChange vMyEdit24
 Gui, Add, Button, gKeyHelp x325 y110 w20 h20 , ?
-Gui, Add, Button, gJoyHelp x325 y150 w20 h20 , ?
+Gui, Add, Button, gJoyHelp x325 y145 w20 h20 , ?
 Gui, Add, Button, gSpeechHelp x325 y180 w20 h20 , ?
 Gui, Font, Underline
 Gui, Add, Text, x125 y218 w50 h13 , &Mouse
