@@ -1,14 +1,7 @@
 ; TOGGLES FILE EXTENSIONS
 ToggleFileExtensions:
   RegRead, HiddenFiles_Status, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, HideFileExt
-  If HiddenFiles_Status = 1 
-  {
-  RegWrite, REG_DWORD, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, HideFileExt, 0
-  }
-  Else 
-  {
-  RegWrite, REG_DWORD, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, HideFileExt, 1
-  }
+  RegWrite, REG_DWORD, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, HideFileExt, (HiddenFiles_Status = 1) ? 0 : 1
   send, {F5}
 return
   
@@ -16,14 +9,7 @@ return
 ; TOGGLES HIDDEN FILES
 ToggleHiddenFiles:
   RegRead, HiddenFiles_Status, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, Hidden
-  If HiddenFiles_Status = 2 
-  {
-  RegWrite, REG_DWORD, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, Hidden, 1
-  }
-  Else 
-  {
-  RegWrite, REG_DWORD, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, Hidden, 2
-  }
+  RegWrite, REG_DWORD, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, Hidden, (HiddenFiles_Status = 2) ? 1 : 2
   send, {F5}
 return
 

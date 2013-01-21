@@ -139,3 +139,9 @@ Default=SpeakTextClip(,ScanSoft Daniel_Full_22kHz);Text-to-speech
 [KB_Appskey & K]
 TriggerName=App+K
 Default=KillProcess();Kill process
+
+
+
+[KB_Appskey & A]
+TriggerName=App+A
+Default={Appskey};Insert key stroke or text
