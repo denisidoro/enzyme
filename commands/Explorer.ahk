@@ -66,3 +66,12 @@ RunCertainProgram(AppLocation, option)
     Run, "%AppLocation%" "%A_LoopField%"
 
 }
+
+CreateNewFile()
+{
+
+  path := Explorer_GetPath()
+
+  FileAppend,, %path%\Newfile.txt
+
+}
