@@ -5,7 +5,6 @@ ToggleFileExtensions:
   send, {F5}
 return
   
-  
 ; TOGGLES HIDDEN FILES
 ToggleHiddenFiles:
   RegRead, HiddenFiles_Status, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, Hidden
@@ -67,11 +66,23 @@ RunCertainProgram(AppLocation, option)
 
 }
 
-CreateNewFile()
+CreateNewFile(option, content)
 {
 
   path := Explorer_GetPath()
 
-  FileAppend,, %path%\Newfile.txt
+  if path = ERROR
+    return
+
+  if option = 0
+    InputBox, filename, Filename, Please include the extension, , 640, 150
+  else if option = 1
+    filename := "newfile.txt"
+  else
+    filename := option
+
+  content := (content = 0) ? "" : content
+    
+  FileAppend, %content%, %path%\%filename%
 
 }
