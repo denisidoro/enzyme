@@ -15,13 +15,6 @@ Please note I haven't written this code in its entirety. Some code from the [AHK
 
 If you think I have used your code and you disagree with that, please inform me so that I can remove it from the source as soon as possible. Check out the [about window] [about] for more information.
 
-###Download###
-
-Click [here] [installer] to download the latest installer. 
-
-You can download this repository by clicking [here] [zip]. The executables are in the '/downloads/' folder.
-
-Alternatively, you can download previous versions of this application from [Softpedia] [softpedia] or [CNET] [cnet].
 
 [ahkforum]: http://www.autohotkey.com/board/
 [about]: https://github.com/denisidoro/enzyme/blob/master/common/About.ahk
