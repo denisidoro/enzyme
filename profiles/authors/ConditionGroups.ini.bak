@@ -18,6 +18,10 @@ WClass=WorkerW
 [Editor]
 Exe=notepad.exe
 Exe=WINWORD.exe
+Exe=sublime_text.exe
+And=0
 
 [Media Players]
 Exe=wmplayer.exe
+Exe=PotPlayerMini64.exe
+And=0

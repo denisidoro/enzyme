@@ -1,0 +1,47 @@
+[mb_ur]
+GestureName=MB Northeast
+Default=Win_Maximize();Maximize window
+
+[mb_dl]
+GestureName=MB Southwest
+Default=Win_Minimize();Minimize window
+
+[mb_l]
+GestureName=MB West
+Browser={Browser_Back};Back
+
+[mb_r]
+GestureName=MB East
+Browser={Browser_Forward};Forward
+
+[KB_+^Delete]
+GestureName=Ctrl+Shift+Delete
+Default=ChangeVolumeWithOSD(-2);Decrease volume with OSD
+
+[KB_+^End]
+GestureName=Ctrl+Shift+End
+Default=ChangeVolumeWithOSD(0);Mute/unmute
+
+[KB_+^PgDn]
+GestureName=Ctrl+Shift+PageDown
+Default=ChangeVolumeWithOSD(2);Increase volume with OSD
+
+[KB_+^Insert]
+GestureName=Ctrl+Shift+Insert
+Default={Media_Prev};Previous track
+
+[KB_+^Home]
+GestureName=Ctrl+Shift+Home
+Default={Media_Next}|{Media_Next};Next track
+
+[KB_+^PgUp]
+GestureName=Ctrl+Shift+PageUp
+Default={Media_Play_Pause};Play/pause
+
+[KB_+^Left]
+GestureName=Ctrl+Shift+Left
+Default=ChangeBrightness(-8);Decrease monitor brightness
+
+[KB_+^Right]
+GestureName=Ctrl+Shift+Right
+Default=ChangeBrightness(8);Increase monitor brightness

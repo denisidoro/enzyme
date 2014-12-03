@@ -5,9 +5,8 @@ SearchWebsite(url)
     url = http://www.google.com/search?q=
   else if url = w
     url = http://en.wikipedia.org/wiki/Special:Search?search=
-  Send, ^c
   Sleep 50
-  Run, %url%%clipboard%
+  Run, % url . GetSelectedText()
 }
 
 ShortenURL(method)

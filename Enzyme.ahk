@@ -69,3 +69,4 @@ Return
 #Include, lib-custom\Updater.lib.ahk
 #Include, lib-custom\TTS.lib.ahk
 #Include, lib-custom\GoogleTTS.lib.ahk
+;#Include, lib-custom\eval.lib.ahk

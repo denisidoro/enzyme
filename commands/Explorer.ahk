@@ -1,15 +1,39 @@
+GetSelectedText() {
+   tmp = %ClipboardAll% ; save clipboard
+   Clipboard := "" ; clear clipboard
+   Send, ^c ; simulate Ctrl+C (=selection in clipboard)
+   ClipWait, 1 ; wait until clipboard contains data
+   selection = %Clipboard% ; save the content of the clipboard
+   Clipboard = %tmp% ; restore old content of the clipboard
+   return selection
+}
+
 ; TOGGLES FILE EXTENSIONS
 ToggleFileExtensions:
-  RegRead, HiddenFiles_Status, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, HideFileExt
-  RegWrite, REG_DWORD, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, HideFileExt, (HiddenFiles_Status = 1) ? 0 : 1
-  send, {F5}
+	RegRead, HiddenFiles_Status, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, HideFileExt
+	If HiddenFiles_Status = 1
+	    RegWrite, REG_DWORD, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, HideFileExt, 0
+	Else
+	    RegWrite, REG_DWORD, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, HideFileExt, 1
+	Send, {F5}
 return
   
 ; TOGGLES HIDDEN FILES
 ToggleHiddenFiles:
-  RegRead, HiddenFiles_Status, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, Hidden
-  RegWrite, REG_DWORD, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, Hidden, (HiddenFiles_Status = 2) ? 1 : 2
-  send, {F5}
+	RegRead, HiddenFiles_Status, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, Hidden
+	If HiddenFiles_Status = 2
+	    RegWrite, REG_DWORD, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, Hidden, 1
+	Else
+	    RegWrite, REG_DWORD, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, Hidden, 2
+	Send, {F5}
+Return
+
+; EXECUTE SHELL COMMAND
+ExecuteShellCommand:
+	path := Explorer_GetPath()
+	;MsgBox, %path%
+	InputBox, command, Command, Insert a bash command, , 640, 150
+	RunWait, C:\Programs\Cygwin\bin\bash.exe -c "cd $(cygpath %path%); %command%;"
 return
 
 KillProcess(name)
@@ -31,6 +55,16 @@ NextDesktopBackground:
   Send, {n} ; send "n", the key for "next desktop background"
   Click %xpos%, %ypos%, 0 ; put the mouse back at its previous position
 return ; done!
+
+ToggleDesktopIcons:
+    ControlGet, HWND, Hwnd,, SysListView321, ahk_class Progman
+    If HWND =
+        ControlGet, HWND, Hwnd,, SysListView321, ahk_class WorkerW
+    If DllCall("IsWindowVisible", UInt, HWND)
+        WinHide, ahk_id %HWND%
+    Else
+        WinShow, ahk_id %HWND%
+return
 
 RunCertainProgram(AppLocation, option)
 {

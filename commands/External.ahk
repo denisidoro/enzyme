@@ -15,6 +15,23 @@ CallNirCmd(argument)
 
 }
 
+CallWinPad(argument)
+{
+
+  AppLocation := "external/winpad/WindowPadX.exe"
+  
+  if !FileExist(AppLocation)
+  {
+    Msgbox, 4, Enzyme can't do this by itself..., This action needs a third-party software: WindowPadX`nYou can download it at https://github.com/hoppfrosch/WindowPadX/releases`nAfter downloading, extract its files to <Enzyme's directory>/external/winpad/`nDo you want to be redirected to this site?
+    IfMsgBox, Yes
+     Run, https://github.com/hoppfrosch/WindowPadX/releases
+    return
+  }
+  
+  Run, %AppLocation% %argument%,, Hide|UseErrorLevel 
+
+}
+
 CallOrzTimer()
 {
 
