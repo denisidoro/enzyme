@@ -33,7 +33,7 @@ ExecuteShellCommand:
 	path := Explorer_GetPath()
 	;MsgBox, %path%
 	InputBox, command, Command, Insert a bash command, , 640, 150
-	RunWait, C:\Programs\Cygwin\bin\bash.exe -c "cd $(cygpath %path%); %command%;"
+	RunWait, C:\Programs\Cygwin\bin\bash.exe -c "cd $(/usr/bin/cygpath %path%); %command%;"
 return
 
 KillProcess(name)
@@ -118,5 +118,66 @@ CreateNewFile(option, content)
   content := (content = 0) ? "" : content
     
   FileAppend, %content%, %path%\%filename%
+
+}
+
+MoveWindowToDesktop(next) {
+
+   ; Launch Win+Tab and open context menu
+   Send, #{Tab}
+   Sleep, 150
+   Send, {AppsKey}
+
+   ; Get context menu info
+   WinWait, ahk_class #32768
+   SendMessage, 0x1E1, 0, 0
+   hMenu := ErrorLevel
+   sContents := GetMenu(hMenu)
+   StringSplit, itemArray, sContents, `, 
+
+   ; Determine what is the current desktop as well as the total number of desktops
+   total := 1
+   current := 0
+   Loop, %itemArray0%
+   {
+      element := itemArray%A_Index%
+      StringSplit, wordArray, element, %A_Space%
+      lastWord := wordArray%wordArray0%
+      if (lastWord+0) {
+         if (lastWord > total and current = 0)
+            current := lastWord - 1
+         total := total + 1
+      }
+      else if (current > 0)
+         break
+   }
+   if (current = 0)
+      current := total
+
+   if ((current = total and next = 1) or (current = 1 and next = 0)) {
+      Sleep, 75
+      SendInput, {Esc 2}
+      return
+   }
+
+   else {
+
+      ; Send input to select desired desktop
+      desired := current - 2 + next
+      SendInput, {Down}
+      SendInput, {Right}
+      SendInput, {Down %desired%}
+      SendInput, {Enter}
+
+      ; Go to desired desktop
+      SendInput, {Enter}
+      if (next = 1)
+         Send, ^#{Right}
+      else
+         Send, ^#{Left}
+
+   }
+
+   return
 
 }

@@ -1,0 +1,1823 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getPositions"
+			],
+			[
+				"lon",
+				"longToByteArray"
+			],
+			[
+				"Ar",
+				"ArduinoFirmata"
+			],
+			[
+				"serial",
+				"serialport_name"
+			],
+			[
+				"testsen",
+				"testSendMessage"
+			],
+			[
+				"digit",
+				"digitalWrite	Arduino digitalWrite"
+			],
+			[
+				"overflo",
+				"overflow-y"
+			],
+			[
+				"monit",
+				"monitoredLines"
+			],
+			[
+				"mon",
+				"monitoredLines"
+			],
+			[
+				"Marker",
+				"markerwithlabel"
+			],
+			[
+				"http_build",
+				"http_build_query"
+			],
+			[
+				"error_",
+				"error_reporting"
+			],
+			[
+				"strepl",
+				"str_replace"
+			],
+			[
+				"tranin",
+				"training_data"
+			],
+			[
+				"uis",
+				"uids_to_notify"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"show",
+				"show_404"
+			],
+			[
+				"str_rep",
+				"str_replace"
+			],
+			[
+				"sytem",
+				"system32"
+			],
+			[
+				"portfolio",
+				"portfolio-projects"
+			],
+			[
+				"portfo",
+				"portfolio-projects"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/dev/Enzyme/Enzyme.ahk",
+			"settings":
+			{
+				"buffer_size": 2015,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/dev/Enzyme/commands/Functions.ahk",
+			"settings":
+			{
+				"buffer_size": 11882,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/dev/Enzyme/commands/Misc.ahk",
+			"settings":
+			{
+				"buffer_size": 4019,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Programs/openFrameworks084VS/apps/myApps/xWacom/bin/data/global.xml",
+			"settings":
+			{
+				"buffer_size": 399,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "aaaaa",
+			"settings":
+			{
+				"buffer_size": 5,
+				"line_ending": "Unix",
+				"name": "aaaaa"
+			}
+		}
+	],
+	"build_system": "Packages/C++/C++.sublime-build",
+	"command_palette":
+	{
+		"height": 73.0,
+		"selected_items":
+		[
+			[
+				"autohot",
+				"Set Syntax: AutoHotkey"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"indent",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"convert sp",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"refre",
+				"Project: Refresh Folders"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"refresh",
+				"Project: Refresh Folders"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"discover",
+				"Package Control: Discover Packages"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"git log current",
+				"Git: Log Current File"
+			],
+			[
+				"git diff ",
+				"Git: Diff Current File"
+			],
+			[
+				"git log",
+				"Git: Log Current File"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git commit",
+				"Git: Commit history"
+			],
+			[
+				"git",
+				"Git: Change Branch"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"syntax c++",
+				"Set Syntax: C++"
+			],
+			[
+				"mat",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"autoho",
+				"Set Syntax: AutoHotkey"
+			],
+			[
+				"syntax c",
+				"Set Syntax: C"
+			],
+			[
+				"",
+				"AutoHotkey - Run"
+			],
+			[
+				"matla",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"matlab",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"syntax:",
+				"Set Syntax: Python"
+			],
+			[
+				"syntax",
+				"Set Syntax: Markdown"
+			],
+			[
+				"set la",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"matlag",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"c",
+				"Set Syntax: C#"
+			],
+			[
+				"paca",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disc",
+				"Package Control: Discover Packages"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"disco",
+				"Package Control: Discover Packages"
+			],
+			[
+				"PAC",
+				"Package Control: Install Package"
+			],
+			[
+				"ADD",
+				"Package Control: Add Repository"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"pacag",
+				"Package Control: Discover Packages"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"reinden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reindn",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"syntax ahk",
+				"Set Syntax: AutoHotkey"
+			],
+			[
+				"ahk",
+				"AutoHotkey - Compile"
+			],
+			[
+				"PYTHon",
+				"Set Syntax: Python"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"autohoke",
+				"Set Syntax: AutoHotkey"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 502.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) );",
+			"ipp = sublime.installed_packages_path(); ",
+			"pf = 'Package Control.sublime-package';",
+			"import urllib.request,os;",
+			"import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')",
+			"https://sublime.wbond.net/alpha/packages.json"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/dev/Enzyme",
+		"/D/dev/Enzyme/commands",
+		"/D/localhost/wacom",
+		"/D/localhost/wintab",
+		"/D/localhost/wintab/node_modules"
+	],
+	"file_history":
+	[
+		"/D/localhost/wacom/touchdemo.html",
+		"/D/localhost/wacom/wacom.js",
+		"/D/Downloads/PressureTest/PressureTest/targetver.h",
+		"/D/localhost/wacom/plugintable.html",
+		"/D/dev/Enzyme/Enzyme.ahk",
+		"/D/Downloads/WacomMT_Scribble.cpp",
+		"/C/Programs/openFrameworks/apps/myApps/helloWacom2/WINTAB.H",
+		"/D/dev/Enzyme/commands/Explorer.ahk",
+		"/D/dev/hexapod/Node/app.js",
+		"/D/dev/hexapod/project.sublime-project",
+		"/D/dev/hexapod/Node/logic/hexapod.js",
+		"/D/dev/hexapod/.git/config",
+		"/D/dev/hexapod/Node/logic/boardReady.js",
+		"/D/dev/hexapod/Arduino/libraries/DynamixelSerial/DynamixelSerial.h",
+		"/D/dev/hexapod/Node/logic/constants.js",
+		"/D/dev/hexapod/Node/logic/hexapod.bak.js",
+		"/D/dev/hexapod/Matlab/IK_patte.m",
+		"/D/dev/hexapod/Node/node_modules/mathjs/lib/expression/node/UpdateNode.js",
+		"/D/dev/hexapod/Node/node_modules/mathjs/docs/reference/functions/unaryPlus.md",
+		"/D/dev/hexapod/Node/logic/userConnected.js",
+		"/D/dev/hexapod/Node/public/images/logo.svg",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/eg/led-on-off.js",
+		"/D/dev/hexapod/Node/node_modules/body-parser/LICENSE",
+		"/D/dev/hexapod/Arduino/StandardFirmataUnoTest/constants.h",
+		"/D/dev/hexapod/Node/node_modules/changes/johnny-five/node_modules/firmata/lib/firmata.js",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/node_modules/firmata/lib/firmata.js",
+		"/D/dev/hexapod/Arduino/StandardFirmataUnoTest/StandardFirmataUnoTest.ino",
+		"/C/Users/Denis/Desktop/arduinoINC.ino",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/eg/change.js",
+		"/D/dev/hexapod/Docs/Other projects/Char's documentation.txt",
+		"/D/dev/hexapod/Node/node_modules/less-middleware/node_modules/less/test/less/errors/color-invalid-hex-code.less",
+		"/D/dev/hexapod/Arduino/ax12test2/constants.h",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/lib/johnny-five.js",
+		"/D/dev/hexapod/Node/views/index.ejs",
+		"/D/dev/hexapod/Arduino/libraries/DynamixelSerial2/DynamixelSerial2.cpp",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/node_modules/.bin/serialportlist",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/eg/servo.js",
+		"/D/dev/hexapod/Arduino/StandardFirmataWithDynamixel/StandardFirmataWithDynamixel.ino",
+		"/D/dev/hexapod/Node/public/javascripts/helpers.js",
+		"/D/dev/hexapod/Node/routes/index.js",
+		"/D/dev/hexapod/Node/public/javascripts/init.js",
+		"/D/dev/hexapod/Arduino/libraries/DynamixelSerial/DynamixelSerial.cpp",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/eg/whisker.js",
+		"/D/dev/hexapod/Docs/Raspberry/Arduino-Raspberry communication.txt",
+		"/C/Portable/Utilities/Enzyme/profiles/authors/Commands.ini",
+		"/C/Portable/Utilities/Notebook scripts/Move to desktop 1.ahk",
+		"/C/Portable/Utilities/Enzyme/profiles/Commands.ini",
+		"/C/Portable/Utilities/Enzyme/profiles/Settings.ini",
+		"/D/dev/enzyme/README.md",
+		"/C/Programs/cygwin/home/Denis/.bashrc",
+		"/C/Portable/Utilities/todo/todo.cfg",
+		"/C/Portable/Utilities/Enzyme/commands/Internet.ahk",
+		"/C/Portable/Utilities/todo/todo.sh",
+		"/C/Portable/Utilities/Enzyme/commands/Explorer.ahk",
+		"/C/Portable/Utilities/Enzyme/commands/Window.ahk",
+		"/C/Portable/Utilities/Enzyme/resource/actions.ini",
+		"/C/Portable/Utilities/Enzyme/Editor.ahk",
+		"/C/Portable/Utilities/Enzyme/mgr/R3gxFunctions.ahk",
+		"/C/Portable/Programming/Sublime Text 3/Data/Packages/User/Preferences.sublime-settings",
+		"/D/Downloads/rmall.sh",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/node_modules/serialport/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/test/extglob-ending-with-state-char.js",
+		"/D/dev/hexapod/Node/node_modules/less-middleware/node_modules/less/test/less/errors/mixin-not-defined.less",
+		"/D/dev/hexapod/Node/node_modules/body-parser/node_modules/iconv-lite/lib/extend-node.js",
+		"/D/dev/hexapod/Node/public/bower/jquery/src/event.js",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/lib/board.js",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/node_modules/serialport/src/win/AutoHeapAlloc.h",
+		"/D/dev/hexapod/Node/node_modules/less-middleware/node_modules/less/node_modules/source-map/test/source-map/test-source-node.js",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/node_modules/serialport/node_modules/node-pre-gyp/node_modules/request/node_modules/form-data/node_modules/combined-stream/test/integration/test-unpaused-streams.js",
+		"/D/dev/hexapod/Node/node_modules/less-middleware/test/test-utilities.js",
+		"/D/dev/hexapod/Matlab/TestBuildSpider.m",
+		"/D/dev/hexapod/Docs/Other projects/Stubby/kicad/rev2.1/stubby.sch",
+		"/D/dev/hexapod/Node/node_modules/ejs/.travis.yml",
+		"/D/dev/hexapod/Arduino/.share_info",
+		"/D/dev/hexapod/.gitignore",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/test/mock-firmata.js",
+		"/D/dev/hexapod/Node/public/bower/gamepad/test/FirefoxPlatformTest.js",
+		"/D/dev/hexapod/Docs/Other projects/Stubby/frame/frame_2dof_insect.dxf",
+		"/D/dev/hexapod/Node/node_modules/ejs/examples/functions.ejs",
+		"/D/dev/hexapod/README.md",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/eg/rotary-encoder.js",
+		"/D/dev/hexapod/Arduino/libraries/DynamixelSerial2/examples/Dynamixel_Read/Dynamixel_Read.ino",
+		"/D/dev/hexapod/Node/node_modules/mathjs/examples/browser/requirejs_loading.html",
+		"/D/dev/hexapod/Node/node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/BufferUtil.fallback.js",
+		"/D/dev/hexapod/Node/node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/BufferUtil.js",
+		"/D/dev/hexapod/Node/node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/BufferPool.js",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/node_modules/serialport/node_modules/node-pre-gyp/node_modules/tar/lib/buffer-entry.js",
+		"/D/dev/hexapod/Node/node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/src/bufferutil.cc",
+		"/D/dev/hexapod/Node/node_modules/socket.io/node_modules/engine.io/node_modules/ws/test/BufferPool.test.js",
+		"/D/dev/hexapod/Node/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/BufferUtil.fallback.js",
+		"/D/dev/hexapod/Node/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/BufferUtil.js",
+		"/D/dev/hexapod/Node/node_modules/socket.io/node_modules/engine.io/node_modules/ws/lib/BufferPool.js",
+		"/D/dev/hexapod/Node/node_modules/socket.io/node_modules/engine.io/node_modules/ws/src/bufferutil.cc",
+		"/D/dev/hexapod/Node/node_modules/morgan/node_modules/depd/lib/compat/buffer-concat.js",
+		"/D/dev/hexapod/Node/node_modules/express/node_modules/depd/lib/compat/buffer-concat.js",
+		"/D/dev/hexapod/Node/node_modules/body-parser/node_modules/depd/lib/compat/buffer-concat.js",
+		"/D/dev/hexapod/Node/node_modules/socket.io/node_modules/socket.io-parser/is-buffer.js",
+		"/D/dev/hexapod/Node/node_modules/debug/debug.js",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/eg/nodebot.js",
+		"/D/dev/hexapod/Node/node_modules/debug/node.js",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/eg/navigator-original.js",
+		"/D/dev/hexapod/Node/node_modules/mathjs/NOTICE",
+		"/D/dev/hexapod/Node/views/partials/jsdefaults.ejs",
+		"/D/dev/hexapod/Node/node_modules/mathjs/examples/basic_usage.js",
+		"/D/dev/hexapod/Arduino/StandardFirmataWithDynamixel/constants.h",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/lib/mixins/within.js",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/eg/board-with-invalid-port.js",
+		"/D/dev/hexapod/Arduino/libraries/VarSpeedServo/VarSpeedServo.cpp",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/eg/acc-test.js",
+		"/D/dev/hexapod/Node/public/javascripts/hexapod.js",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/node_modules/firmata/examples/servo-config.js",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/node_modules/.bin/firmata.cmd",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/eg/servo-animation.js",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/node_modules/serialport/node_modules/sf/test/timeSpanTest.js",
+		"/D/dev/hexapod/Arduino/ax12SetID/ax12SetID.ino",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/eg/sensor-temperature-lm35.js",
+		"/D/dev/hexapod/Arduino/libraries/DynamixelSerial2/DynamixelSerial2.h",
+		"/D/dev/hexapod/Arduino/libraries/DynamixelSerial2/examples/Dynamixel_Conf/Dynamixel_Conf.ino",
+		"/D/dev/hexapod/Arduino/libraries/DynamixelSerial2/license.txt",
+		"/D/dev/hexapod/Arduino/libraries/DynamixelSerial2/keywords.txt",
+		"/D/dev/hexapod/Arduino/libraries/DynamixelSerial2/README.txt",
+		"/D/dev/hexapod/Node/node_modules/mathjs/dist/math.js",
+		"/D/dev/hexapod/Node/public/javascripts/gui.js",
+		"/D/dev/hexapod/Node/node_modules/less-middleware/node_modules/less/test/browser/runner-browser-options.js",
+		"/D/dev/hexapod/Node/node_modules/johnny-five/node_modules/serialport/node_modules/node-pre-gyp/node_modules/tar-pack/node_modules/uid-number/get-uid-gid.js",
+		"/D/dev/hexapod/Node/public/bower/dat.gui/dat.gui.js",
+		"/D/dev/hexapod/Node/public/bower/gamepad/test/GamepadUser.js",
+		"/D/dev/hexapod/Node/public/javascripts/gamepad.js",
+		"/D/dev/hexapod/Node/public/bower/ace-builds/demo/kitchen-sink/docs/logiql.logic"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 191.0,
+		"where_history":
+		[
+			"<open folders>,*.ahk",
+			"<open folders>",
+			"<open folders>,*.js",
+			"<open folders>,*.ahk",
+			"<open folders>,*.js",
+			"<open folders>",
+			"<open folders>,*.js",
+			"<open folders>",
+			"<open folders>,*.js",
+			"<open folders>",
+			"<open folders>,*.js",
+			"<open folders>",
+			"<open folders>,*.js",
+			"<open folders>",
+			"<open folders>,*.java",
+			"<open folders>",
+			"<open folders>,<open files>,*.php",
+			"<open folders>,<open files>,*.js",
+			"<open folders>,<open files>,*.php",
+			"<open folders>,<open files>,*.xml",
+			"<open folders>,<open files>,*.java",
+			"<open folders>,<open files>,*.xml",
+			"<open folders>,<open files>,*.less",
+			"<open folders>,<open files>,*.php",
+			"<open folders>,<open files>",
+			"<open folders>",
+			"*.php",
+			"",
+			"*.php",
+			"de um mesmo grupo",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.cpp",
+			"D:\\dev\\of\\addons\\ofxOpenCv, *.cpp",
+			"",
+			"<open files>,<open folders>,D:\\dev\\of\\addons\\ofxUI,*.java",
+			"<open files>,<open folders>,D:\\dev\\of\\addons\\ofxUI,*.cpp",
+			"<open files>,<open folders>,*.cpp",
+			"<open files>,<open folders>,*.cpp\\",
+			"<open files>,<open folders>,*.h",
+			"<open files>,<open folders>,*.cpp",
+			"<open files>,<open folders>,*.h",
+			"<open files>,<open folders>,*.php",
+			"<open files>,<open folders>,*.css",
+			"<open files>,<open folders>,*.java",
+			"<open files>,<open folders>,*.php",
+			"<open files>,<open folders>",
+			"<open files>",
+			"<open files>,<open folders>",
+			"<open files>",
+			"<open folders>,<open files>,*.txt",
+			"<open folders>,<open files>,*.php",
+			"<open folders>,<open files>,*.phpp",
+			"<open folders>,<open files>,*.php",
+			"<open folders>,<open files>,*.css",
+			"<open folders>,<open files>,*.js",
+			"<open folders>,<open files>,*.php",
+			"<open folders>,<open files>,*.less",
+			"<open folders>,<open files>,*.js",
+			"<open folders>,<open files>,*.php",
+			"<open folders>,<open files>,*.css",
+			"<open folders>,<open files>,*.php",
+			"<open folders>,<open files>,*.ini",
+			"<open folders>,<open files>,*.php",
+			"<open folders>,<open files>,*.css",
+			"<open folders>,<open files>,*.php",
+			"<open folders>,<open files>,*.htm",
+			"<open folders>,<open files>,*.php",
+			"<open folders>,<open files>,*.js",
+			"<open folders>,<open files>,*.css",
+			"<open folders>,<open files>,*.html",
+			"<open folders>,<open files>,*.css",
+			"<open folders>,<open files>,*.php",
+			"<open folders>,<open files>,*.js",
+			"<open folders>,<open files>,*.css",
+			"<open folders>,<open files>,*.php",
+			"<open folders>,<open files>,*.css",
+			"<open folders>,<open files>,*.php",
+			"<open folders>,<open files>,*.css",
+			"<open folders>,<open files>,*.js",
+			"<open folders>,<open files>,*.php",
+			"<open folders>,<open files>,*.ahk",
+			"<open folders>,<open files>,*.ini",
+			"<open folders>,<open files>,*.ahk",
+			"<open folders>,<open files>",
+			"<open folders>,<open files>,*.ahk",
+			"<open folders>,<open files>,*.css",
+			"<open folders>,<open files>,*.cs",
+			"<open folders>,<open files>,*.php",
+			"<open folders>,<open files>,*.css",
+			"<open folders>,<open files>",
+			"<open folders>,<open files>,*.css",
+			"<open folders>,<open files>",
+			"",
+			"||",
+			"<open folders>",
+			"count"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"input",
+			"sin",
+			"/*\n\n */",
+			"var _",
+			"mgr_execu",
+			"servo.",
+			"position",
+			"info.",
+			"position",
+			"hexapod",
+			"exports",
+			"c.",
+			"// ",
+			"require",
+			"L[",
+			"Servo.get",
+			"board.io",
+			"forEach",
+			"each",
+			"updatecallb",
+			"Servo.servos",
+			"servo.servos",
+			"POSITION",
+			"update",
+			"AX_PRESENT_POSITION_L",
+			"get",
+			"update:",
+			"updateposi",
+			"base.",
+			"base",
+			"base.",
+			"firmata.avai",
+			"updatepo",
+			"update",
+			"updateposition",
+			"longarray",
+			"slice",
+			"splic",
+			"bytearray",
+			"bytea",
+			"bytearray",
+			"bytearraytolongarray",
+			"blinkle",
+			"console.log",
+			"true",
+			"inttobytearray",
+			"inttobytearra",
+			"responsetest",
+			"moveax12",
+			"readax12",
+			"read_",
+			"inttobytearray",
+			"13",
+			"ax12p",
+			"read_ax",
+			"generic",
+			"currentbuff",
+			"calla2",
+			"present_position",
+			"temperature",
+			"position",
+			"readtemper",
+			"temperature",
+			"SEN",
+			"send",
+			"SEN",
+			"senddata",
+			"senddata(",
+			"senddata",
+			"generic_re",
+			"moveax12",
+			"readax",
+			"sysexcallback",
+			"argc,",
+			"argv",
+			"moveax",
+			"value",
+			"sysexcallback",
+			"sysex",
+			"i2crxd",
+			"i2crx",
+			"[]",
+			"byte ",
+			"byte",
+			"bytearrayto",
+			"longtobyt",
+			"generic_re",
+			"alias",
+			"alias =",
+			"alias",
+			"searchwebsite",
+			"Search",
+			"search",
+			"toggle",
+			"please",
+			"start",
+			"launch",
+			"explorer",
+			"alert",
+			"io =",
+			"board.io",
+			"io =",
+			".io",
+			"io",
+			".io",
+			"io",
+			"GENERIC",
+			"generic",
+			"longtob",
+			"longto",
+			"generic_res",
+			"longtobyt",
+			"append",
+			"toggle",
+			"require(\"firm",
+			"require('firm",
+			"require('",
+			"generic_",
+			".sysex",
+			"console.",
+			"byte1",
+			"ax12",
+			"long",
+			"eval",
+			"callback",
+			"l[0",
+			"buffer",
+			"0xff"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"this.",
+			"hex",
+			"",
+			"Servo.list",
+			"POSITION",
+			"xBase[2]",
+			"xBase[1]",
+			"xBase[0]",
+			"Math.ac",
+			"Math.as",
+			"Math.atan",
+			"Math.sin",
+			"Math.cos",
+			"xxxxx",
+			"#EBB607",
+			"#F8C408",
+			"\"",
+			"'./resource",
+			"./resource/img",
+			"./img",
+			"\"/resource/img/",
+			"\\t",
+			"tandem2-form",
+			"data",
+			"$native",
+			"$this->CI->db",
+			"native_ids",
+			".multiselect",
+			"'",
+			"",
+			"30em",
+			"27em",
+			"22em",
+			"direction-pa",
+			"20em",
+			"directions-panel",
+			"Router.directionsDisplay",
+			"direction-p",
+			"Visualizar",
+			"direction-sel",
+			"30em",
+			"//console.log",
+			"line",
+			"markers",
+			"query",
+			"map",
+			"line.info",
+			"URL",
+			"INSERT INTO shapes (shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled) VALUES ($1);",
+			"INSERT INTO shapes(shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled) VALUES ($1)",
+			"INSERT INTO (shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence,shape_dist_traveled) VALUES ($1)",
+			"INSERT INTO (blah) VALUES ($1)",
+			"'",
+			"$this->phpflickr",
+			"->phpflickr",
+			"phpflickr",
+			"->phpFlickr",
+			"$this->flickr",
+			"$this->flickr->",
+			"$flickr",
+			"testApp",
+			"3.5s",
+			"gamma",
+			"APP_NAME",
+			"SITE_ROOT",
+			"prvt/",
+			"En voir plus",
+			"btn-primary",
+			"$row",
+			"@alt",
+			"",
+			"$level",
+			"",
+			"<?= RESOURCE_ROOT; ?>",
+			"<?= RESOURCE_ROOT; ?>/style/shield/",
+			"shield",
+			".",
+			"",
+			"api",
+			"de um mesmo grupo",
+			"",
+			"@duration",
+			"border-radius",
+			"\\t",
+			"'",
+			"\\\\",
+			" ",
+			"",
+			"$2/$1/$4",
+			"$1/$2/$4",
+			"$2/$1/$4",
+			"$2/$1/$3",
+			"\\/1",
+			"",
+			"$1 - ",
+			"[$1] - ",
+			"$1 - ",
+			"",
+			" ",
+			"",
+			"BritishRanking",
+			"friends",
+			"motion",
+			"9",
+			"criterion",
+			"d",
+			"eparser",
+			"event_parser",
+			"UNIVERSITY_ACRONYM",
+			"\"name LIKE ",
+			"format_time",
+			"tag_params",
+			"xface->xapi",
+			"event_model->sel",
+			"this->",
+			"xface->",
+			"$desc",
+			"thumb(",
+			"DB_LIMIT",
+			"inputSource",
+			"dom",
+			"table",
+			"isotope-container ",
+			"class='isotope-container hidden ",
+			"params[2]",
+			"params[1]",
+			"params[0]",
+			"$c["
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/dev/Enzyme/Enzyme.ahk",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2015,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								606,
+								606
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AutoHotkey/AutoHotkey.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 308.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/dev/Enzyme/commands/Functions.ahk",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11882,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2958,
+								2944
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AutoHotkey/AutoHotkey.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3187.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/dev/Enzyme/commands/Misc.ahk",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4019,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3952,
+								3952
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AutoHotkey/AutoHotkey.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3588.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Programs/openFrameworks084VS/apps/myApps/xWacom/bin/data/global.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 399,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								274,
+								274
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 484.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5,
+								5
+							]
+						],
+						"settings":
+						{
+							"auto_name": "aaaaa",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.CustomFirmata":
+	{
+		"height": 112.0
+	},
+	"output.StandardFirmata":
+	{
+		"height": 112.0
+	},
+	"output.StandardFirmataUnoTest":
+	{
+		"height": 112.0
+	},
+	"output.StandardFirmataWithDynamixel":
+	{
+		"height": 239.0
+	},
+	"output.allLegsTest":
+	{
+		"height": 118.0
+	},
+	"output.anf":
+	{
+		"height": 118.0
+	},
+	"output.ax12SetID":
+	{
+		"height": 112.0
+	},
+	"output.ax12test":
+	{
+		"height": 118.0
+	},
+	"output.ax12test2":
+	{
+		"height": 118.0
+	},
+	"output.blink":
+	{
+		"height": 112.0
+	},
+	"output.duino":
+	{
+		"height": 112.0
+	},
+	"output.exec":
+	{
+		"height": 186.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"output.j5":
+	{
+		"height": 118.0
+	},
+	"output.led":
+	{
+		"height": 112.0
+	},
+	"output.legFirstTest":
+	{
+		"height": 112.0
+	},
+	"output.library":
+	{
+		"height": 112.0
+	},
+	"output.multiServoTest":
+	{
+		"height": 130.0
+	},
+	"output.servoSpeedTest":
+	{
+		"height": 130.0
+	},
+	"output.src":
+	{
+		"height": 112.0
+	},
+	"output.stino_log":
+	{
+		"height": 112.0
+	},
+	"output.string":
+	{
+		"height": 112.0
+	},
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 132.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"boardread",
+				"Node\\logic\\boardReady.js"
+			],
+			[
+				"board",
+				"Node\\logic\\boardReady.js"
+			],
+			[
+				"dynamixel",
+				"Arduino\\libraries\\DynamixelSerial\\DynamixelSerial.h"
+			],
+			[
+				"app.js",
+				"Node\\app.js"
+			],
+			[
+				"logichex",
+				"Node\\logic\\hexapod.js"
+			],
+			[
+				"unotest",
+				"Arduino\\StandardFirmataUnoTest\\StandardFirmataUnoTest.ino"
+			],
+			[
+				"changesfirma",
+				"Node\\node_modules\\changes\\johnny-five\\node_modules\\firmata\\lib\\firmata.js"
+			],
+			[
+				"firmata",
+				"Node\\node_modules\\johnny-five\\node_modules\\firmata\\lib\\firmata.js"
+			],
+			[
+				"constants",
+				"Arduino\\StandardFirmataUnoTest\\constants.h"
+			],
+			[
+				"dynam",
+				"Arduino\\libraries\\DynamixelSerial\\DynamixelSerial.h"
+			],
+			[
+				"boar",
+				"Node\\logic\\boardReady.js"
+			],
+			[
+				"index.ejs",
+				"Node\\views\\index.ejs"
+			],
+			[
+				"firmata.js",
+				"Node\\node_modules\\johnny-five\\node_modules\\firmata\\lib\\firmata.js"
+			],
+			[
+				"unotes",
+				"Arduino\\StandardFirmataUnoTest\\StandardFirmataUnoTest.ino"
+			],
+			[
+				"changesfir",
+				"Node\\node_modules\\changes\\johnny-five\\node_modules\\firmata\\lib\\firmata.js"
+			],
+			[
+				"dynami",
+				"Arduino\\libraries\\DynamixelSerial\\DynamixelSerial.h"
+			],
+			[
+				"helpers",
+				"Node\\public\\javascripts\\helpers.js"
+			],
+			[
+				"boardrea",
+				"Node\\logic\\boardReady.js"
+			],
+			[
+				"logiche",
+				"Node\\logic\\hexapod.js"
+			],
+			[
+				"withdy",
+				"Arduino\\StandardFirmataWithDynamixel\\StandardFirmataWithDynamixel.ino"
+			],
+			[
+				"userconn",
+				"Node\\logic\\userConnected.js"
+			],
+			[
+				"logichexa",
+				"Node\\logic\\hexapod.js"
+			],
+			[
+				"changefirm",
+				"Node\\node_modules\\changes\\johnny-five\\node_modules\\firmata\\lib\\firmata.js"
+			],
+			[
+				"explorer",
+				"commands\\Explorer.ahk"
+			],
+			[
+				"logichexp",
+				"Node\\logic\\hexapod.js"
+			],
+			[
+				"logic",
+				"Node\\logic\\userConnected.js"
+			],
+			[
+				"boardre",
+				"Node\\logic\\boardReady.js"
+			],
+			[
+				"board.js",
+				"Node\\node_modules\\johnny-five\\lib\\board.js"
+			],
+			[
+				"five",
+				"Node\\node_modules\\johnny-five\\lib\\johnny-five.js"
+			],
+			[
+				"conne",
+				"Node\\logic\\userConnected.js"
+			],
+			[
+				"app.j",
+				"Node\\app.js"
+			],
+			[
+				"changesfirmata",
+				"Node\\node_modules\\changes\\johnny-five\\node_modules\\firmata\\lib\\firmata.js"
+			],
+			[
+				"index.js",
+				"Node\\routes\\index.js"
+			],
+			[
+				"changesfirm",
+				"Node\\node_modules\\changes\\johnny-five\\node_modules\\firmata\\lib\\firmata.js"
+			],
+			[
+				"userc",
+				"Node\\logic\\userConnected.js"
+			],
+			[
+				"help",
+				"Node\\public\\javascripts\\helpers.js"
+			],
+			[
+				"ikpatte",
+				"Matlab\\IK_patte.m"
+			],
+			[
+				"",
+				"Node\\logic\\hexapod.js"
+			],
+			[
+				"user",
+				"Node\\logic\\userConnected.js"
+			],
+			[
+				"unotestconsta",
+				"Arduino\\StandardFirmataUnoTest\\constants.h"
+			],
+			[
+				"const",
+				"Arduino\\ax12test2\\constants.h"
+			],
+			[
+				"firmataconsta",
+				"Arduino\\StandardFirmataUnoTest\\constants.h"
+			],
+			[
+				"consta",
+				"Arduino\\ax12test2\\constants.h"
+			],
+			[
+				"standar",
+				"Arduino\\StandardFirmataWithDynamixel\\StandardFirmataWithDynamixel.ino"
+			],
+			[
+				"hexapod",
+				"Node\\logic\\hexapod.js"
+			],
+			[
+				"setid",
+				"Arduino\\ax12SetID\\ax12SetID.ino"
+			],
+			[
+				"stand",
+				"Arduino\\StandardFirmataWithDynamixel\\StandardFirmataWithDynamixel.ino"
+			],
+			[
+				"dynaserial2/",
+				"Arduino\\libraries\\DynamixelSerial2\\examples\\Dynamixel_Conf\\Dynamixel_Conf.ino"
+			],
+			[
+				"dyna2",
+				"Arduino\\libraries\\DynamixelSerial2\\DynamixelSerial2.cpp"
+			],
+			[
+				"dynaser2",
+				"Arduino\\libraries\\DynamixelSerial2\\DynamixelSerial2.h"
+			],
+			[
+				"withdycon",
+				"Arduino\\StandardFirmataWithDynamixel\\constants.h"
+			],
+			[
+				"unotescon",
+				"Arduino\\StandardFirmataUnoTest\\constants.h"
+			],
+			[
+				"gui",
+				"Node\\public\\javascripts\\gui.js"
+			],
+			[
+				"logic/",
+				"Node\\logic\\userConnected.js"
+			],
+			[
+				"ikpatt",
+				"Matlab\\IK_patte.m"
+			],
+			[
+				"testbu",
+				"Matlab\\TestBuildSpider.m"
+			],
+			[
+				"matlab/",
+				"Matlab\\BuildSpider.m"
+			],
+			[
+				"math.js",
+				"Node\\node_modules\\mathjs\\dist\\math.js"
+			],
+			[
+				"socket.js",
+				"Node\\public\\javascripts\\socket.js"
+			],
+			[
+				"servo.js",
+				"Node\\node_modules\\johnny-five\\eg\\servo.js"
+			],
+			[
+				"head.e",
+				"Node\\views\\partials\\head.ejs"
+			],
+			[
+				"style.less",
+				"Node\\public\\stylesheets\\style.less"
+			],
+			[
+				"datgui.js",
+				"Node\\public\\javascripts\\datgui.js"
+			],
+			[
+				"showown",
+				"Node\\public\\bower\\ace-builds\\demo\\show_own_source.js"
+			],
+			[
+				"jsdefault",
+				"Node\\views\\partials\\jsdefaults.ejs"
+			],
+			[
+				"head.ejs",
+				"Node\\views\\partials\\head.ejs"
+			],
+			[
+				"constan",
+				"Arduino\\StandardFirmataUnoTest\\constants.h"
+			],
+			[
+				"helpe",
+				"Node\\public\\javascripts\\helpers.js"
+			],
+			[
+				"uno",
+				"Arduino\\StandardFirmataUnoTest\\StandardFirmataUnoTest.ino"
+			],
+			[
+				"standa",
+				"Arduino\\StandardFirmataWithDynamixel\\StandardFirmataWithDynamixel.ino"
+			],
+			[
+				"event.js",
+				"Node\\public\\bower\\jquery\\src\\event.js"
+			],
+			[
+				"johnn",
+				"Node\\node_modules\\johnny-five\\lib\\johnny-five.js"
+			],
+			[
+				"libpin.js",
+				"Node\\node_modules\\johnny-five\\lib\\pin.js"
+			],
+			[
+				"egled.",
+				"Node\\node_modules\\johnny-five\\eg\\led.js"
+			],
+			[
+				"libled",
+				"Node\\node_modules\\johnny-five\\lib\\led.js"
+			],
+			[
+				"egled",
+				"Node\\node_modules\\johnny-five\\eg\\led.js"
+			],
+			[
+				"led.js",
+				"Node\\node_modules\\johnny-five\\eg\\led.js"
+			],
+			[
+				"gamepad",
+				"Node\\public\\javascripts\\gamepad.js"
+			],
+			[
+				"gampad",
+				"Node\\public\\javascripts\\gamepad.js"
+			],
+			[
+				"publicjavascript",
+				"Node\\public\\javascripts\\helpers.js"
+			],
+			[
+				"datgui",
+				"Node\\public\\javascripts\\datgui.js"
+			],
+			[
+				".less",
+				"Node\\public\\stylesheets\\style.less"
+			],
+			[
+				"socket",
+				"Node\\public\\javascripts\\socket.js"
+			],
+			[
+				"hel",
+				"Node\\public\\javascripts\\helpers.js"
+			],
+			[
+				"init.js",
+				"Node\\public\\javascripts\\init.js"
+			],
+			[
+				"gamepad.js",
+				"Node\\public\\javascripts\\gamepad.js"
+			],
+			[
+				"headejs",
+				"Node\\views\\partials\\head.ejs"
+			],
+			[
+				"dagui.js",
+				"Node\\public\\javascripts\\datgui.js"
+			],
+			[
+				"head",
+				"Node\\views\\partials\\head.ejs"
+			],
+			[
+				"egservo",
+				"j5\\node_modules\\johnny-five\\eg\\servo-animation.js"
+			],
+			[
+				"led",
+				"j5\\node_modules\\johnny-five\\lib\\led.js"
+			],
+			[
+				"dat.gui.",
+				"Node\\public\\bower\\dat.gui\\dat.gui.js"
+			],
+			[
+				"da",
+				"Node\\views\\partials\\datgui.ejs"
+			],
+			[
+				"header",
+				"application\\views\\components\\kiss\\header.php"
+			],
+			[
+				"generalhome",
+				"application\\views\\pages\\general\\home.php"
+			],
+			[
+				"constant",
+				"application\\config\\constants.php"
+			],
+			[
+				"tmdb",
+				"roulette\\application\\libraries\\tmdb.php"
+			],
+			[
+				"autol",
+				"roulette\\application\\config\\autoload.php"
+			],
+			[
+				"configfa",
+				"vans2\\application\\config\\facebook.php"
+			],
+			[
+				"facebook",
+				"vans2\\application\\libraries\\facebook.php"
+			],
+			[
+				"rouletteauto",
+				"roulette\\application\\config\\autoload.php"
+			],
+			[
+				"vans2.js",
+				"vans2\\resource\\js\\main.js"
+			],
+			[
+				"about/js",
+				"about\\resource\\js\\contact_me.js"
+			],
+			[
+				"author.css",
+				"author\\resource\\style\\agency.css"
+			],
+			[
+				"bootstrapvali",
+				"author\\resource\\js\\jqBootstrapValidation.js"
+			],
+			[
+				"authorjs",
+				"author\\resource\\js\\contact_me.js"
+			],
+			[
+				"authorwelc",
+				"author\\application\\controllers\\welcome.php"
+			],
+			[
+				"main.php",
+				"author\\application\\views\\pages\\main.php"
+			],
+			[
+				"html_helper",
+				"system\\helpers\\html_helper.php"
+			],
+			[
+				"authorhelper",
+				"author\\application\\helpers\\MY_html_helper.php"
+			],
+			[
+				"momentscontrollers",
+				"moments\\application\\controllers\\welcome.php"
+			],
+			[
+				"configtemplate",
+				"author\\application\\config\\template.php"
+			],
+			[
+				"eventprofile",
+				"partydex\\php\\application\\views\\pages\\event\\profile.php"
+			],
+			[
+				"eventmode",
+				"partydex\\php\\application\\models\\event_model.php"
+			],
+			[
+				"listview",
+				"DemoIntroAndroid\\src\\codepath\\apps\\demointroandroid\\ListViewClicksActivity.java"
+			],
+			[
+				"click",
+				"DemoIntroAndroid\\src\\codepath\\apps\\demointroandroid\\BasicClickHandlersActivity.java"
+			],
+			[
+				"imagedown",
+				"DemoIntroAndroid\\src\\codepath\\apps\\demointroandroid\\BasicImageDownloadActivity.java"
+			],
+			[
+				"simplelistviewitem",
+				"DemoIntroAndroid\\res\\layout\\simple_list_view_item.xml"
+			],
+			[
+				"simplelist",
+				"DemoIntroAndroid\\src\\codepath\\apps\\demointroandroid\\SimpleListViewActivity.java"
+			],
+			[
+				"boxoffic",
+				"src\\com\\codepath\\example\\rottentomatoes\\BoxOfficeActivity.java"
+			],
+			[
+				"attractioncontrolle",
+				"php\\attraction\\application\\controllers\\about.php"
+			],
+			[
+				"attractionhoo",
+				"php\\attraction\\application\\config\\hooks.php"
+			],
+			[
+				"attractionauto",
+				"php\\attraction\\application\\config\\autoload.php"
+			],
+			[
+				"eventmodel",
+				"php\\application\\models\\event_model.php"
+			],
+			[
+				"routes",
+				"php\\attraction\\application\\config\\routes.php"
+			],
+			[
+				"route",
+				"php\\application\\config\\routes.php"
+			],
+			[
+				"corecode",
+				"php\\system\\core\\CodeIgniter.php"
+			],
+			[
+				"indexp",
+				"D:\\localhost\\partydex\\php\\partydex\\index.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\dev\\hexapod\\project.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 288.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

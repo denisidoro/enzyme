@@ -134,15 +134,13 @@ Default=;
 
 [KB_Appskey & F1]
 TriggerName=App+F1
-Default=RunCertainProgram("C:\Portable\Programming\Sublime Text 3\sublime_text.exe", 0);Open file with Sublime Text
+Default=RunCertainProgram(C:\Windows\System32\notepad.exe, 0);Open file with Notepad
 
 [KB_Appskey & F2]
 TriggerName=App+F2
-Default=RunCertainProgram("C:\Portable\Programming\Notepad++\notepad++.exe", 0);Open file with Notepad++
+Default=RunCertainProgram("C:\Portable\Programming\SublimeText\sublime_text.exe", 0);Open file with Sublime Text
 
-[KB_Appskey & F3]
-TriggerName=App+F3
-Default=RunCertainProgram(C:\Windows\System32\notepad.exe, 0);Open file with Notepad
+
 
 [KB_Appskey & F5]
 TriggerName=App+F5
@@ -179,3 +177,41 @@ Default=Run("C:/Portable/Programming/Console/shortcuts/Cygwin.lnk");Open Cygwin
 [KB_Appskey & D]
 TriggerName=App+D
 Default=ToggleDesktopIcons;Toggle desktop icons
+
+[KB_Appskey & W]
+TriggerName=App+W
+Default=SearchWebsite(g);Search selected text on a site
+
+[KB_^!T]
+TriggerName=Ctrl+Alt+T
+Default=Run(C:/Portable/Programming/Console/Console.exe);Run program/file or open folder
+
+[KB_^!Numpad1]
+TriggerName=Ctrl+Alt+1
+Default=Run(DisplaySwitch.exe /internal);Run program/file or open folder
+
+[KB_^!Numpad2]
+TriggerName=Ctrl+Alt+2
+Default=Run(DisplaySwitch.exe /external);Run program/file or open folder
+
+[KB_^!Numpad0]
+TriggerName=Ctrl+Alt+0
+Default=Run(DisplaySwitch.exe /extend);Run program/file or open folder
+
+[KB_^#E]
+TriggerName=Ctrl+Win+E
+Default=Run(C:/Programs/cygwin/home/Denis);Run program/file or open folder
+
+[KB_Tab]
+TriggerName=Tab
+Cortana=AutocompleteSearch();Autocomplete search
+Default=SendKey({Tab});Default Input
+
+
+[KB_+^#Right]
+TriggerName=Ctrl+Shift+Win+Right
+Default=MoveWindowToDesktop(1);Move window to next desktop
+
+[KB_+^#Left]
+TriggerName=Ctrl+Shift+Win+Left
+Default=MoveWindowToDesktop(0);Move window to previous desktop

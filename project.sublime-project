@@ -1,0 +1,21 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "D:\\dev\\Enzyme"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\Downloads\\WacomMT_Scribble"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\localhost\\wacom"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\localhost\\wintab"
+		}
+	]
+}

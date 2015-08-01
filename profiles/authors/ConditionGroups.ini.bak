@@ -25,3 +25,7 @@ And=0
 Exe=wmplayer.exe
 Exe=PotPlayerMini64.exe
 And=0
+[Cortana]
+
+And=0
+Title=Cortana

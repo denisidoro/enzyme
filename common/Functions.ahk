@@ -71,3 +71,23 @@ SaveInis(suffix="")
   Name = %SettingsFileURL%%suffix%
   ini_save(Settings, Name)
 }
+
+GetMenu(hMenu)
+{
+   Loop, % DllCall("GetMenuItemCount", "Uint", hMenu)
+   {
+      idx := A_Index - 1
+      idn := DllCall("GetMenuItemID", "Uint", hMenu, "int", idx)
+      nSize++ := DllCall("GetMenuString", "Uint", hMenu, "int", idx, "Uint", 0, "int", 0, "Uint", 0x400)
+	  nSize := (nSize * (A_IsUnicode ? 2 : 1))
+      VarSetCapacity(sString, nSize)
+      DllCall("GetMenuString", "Uint", hMenu, "int", idx, "str", sString, "int", nSize, "Uint", 0x400)   ;MF_BYPOSITION
+      If !sString
+         sString := "---------------------------------------"
+      ;sContents .= idx . " : " . idn . A_Tab . A_Tab . sString . "`n"
+      sContents .= sString . ","
+      If (idn = -1) && (hSubMenu := DllCall("GetSubMenu", "Uint", hMenu, "int", idx))
+         sContents .= GetMenu(hSubMenu)
+   }
+   Return   sContents
+}

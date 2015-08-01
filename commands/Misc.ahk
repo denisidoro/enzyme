@@ -181,3 +181,18 @@ SayTime(voice)
   Say(sayTimeString, voice)
   
 }
+
+SendKey(k) {
+  SendInput, % k
+}
+
+Send(k) {
+  Send, % k
+}
+
+AutocompleteSearch() {
+  SendInput, {Down}
+  SendInput, {Up}
+  Sleep, 150
+  SendInput, {\}
+}

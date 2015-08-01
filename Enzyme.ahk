@@ -1,5 +1,5 @@
-﻿#SingleInstance, Force
-#NoEnv
+﻿#NoEnv
+#UseHook, On
 
 SetWorkingDir, %A_ScriptDir%
 SetBatchLines, -1
@@ -12,6 +12,24 @@ Script_Name := "Enzyme" ;Your script name
 #Include, common\StructureVersion.ahk
 
 ;about_version = Version %Version_Number%
+
+; Checks for parameters
+if 0 > 0
+{
+  Loop, %0%  ; For each parameter:
+  {
+    param := %A_Index%  ; Fetch the contents of the variable whose name is contained in A_Index.
+    if (RegExMatch(param, "a=(.*)", $))
+    {
+      ;Msgbox, % $1
+      mgr_Execute($1)
+      ExitApp
+    }
+  }
+  ExitApp
+}
+
+#SingleInstance, Force
 
 Menu, Tray, NoStandard ; only use this menu
 menu, tray, tip, %Script_Name%
@@ -28,20 +46,6 @@ Menu, tray, add, About, About
 Menu, tray, add, Check for updates, CheckUpdate
 Menu, tray, add, Exit, Exit
 Menu, Tray, Default, Options 
-
-; Checks for parameters
-if 0 > 0
-{
-  Loop, %0%  ; For each parameter:
-  {
-    param := %A_Index%  ; Fetch the contents of the variable whose name is contained in A_Index.
-    if (RegExMatch(param, "a=(.*)", $))
-    {
-      mgr_Execute($1)
-    }
-  }
-  ExitApp
-}
 
 #Include, lib-custom\Com.ahk
 ;#Include, lib-custom\URLEncode.lib.ahk
