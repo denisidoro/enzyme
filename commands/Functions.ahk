@@ -349,7 +349,7 @@ ShortenURL(method)
   
     ;global API_G
     
-    API_G = AIzaSyBDqyjONOz2lWr7tsgBZF5ZghJSGYrOolY
+    API_G = REDACTED ; TODO
     
     http:=ComObjCreate("WinHttp.WinHttpRequest.5.1")
     main:="https://www.googleapis.com/urlshortener/v1/url"
